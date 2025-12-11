@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - FITNESS FUSION</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">FITNESS FUSION</div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#programs">Programs</a>
+            <a href="index.html#about">About</a>
+            <a href="contact.html" class="active">Sign Up</a>
+        </nav>
+    </header>
+
+    <div class="contact-form-container">
+        <h2>Join Our Fitness Family!</h2>
+        <p style="text-align: center; margin-bottom: 25px;">Fill out the form below to claim your free week trial.</p>
+        
+        <form action="#" method="GET">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="goal">Your Main Fitness Goal</label>
+                <select id="goal" name="goal" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="strength">Gain Strength / Build Muscle</option>
+                    <option value="lose">Weight Loss / Toning</option>
+                    <option value="endurance">Increase Endurance / Stamina</option>
+                    <option value="flexibility">Flexibility / Wellness</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Preferred Communication</label>
+                <div>
+                    <input type="radio" id="email-opt" name="comm" value="email" checked>
+                    <label for="email-opt" style="display: inline-block; font-weight: 400;">Email Updates</label>
+                    <input type="radio" id="sms-opt" name="comm" value="sms" style="margin-left: 20px;">
+                    <label for="sms-opt" style="display: inline-block; font-weight: 400;">SMS Notifications</label>
+                </div>
+            </div>
+
+            <button type="submit" class="cta-button submit-button">SEND & GET STARTED</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 FITNESS FUSION. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a> | 
+            <a href="#">Facebook</a> | 
+            <a href="#">X (Twitter)</a>
+        </div>
+    </footer>
+
+</body>
+</html>
